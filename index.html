@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Quiz</title>
+  </head>
+  <body>
+    <div class="quiz-wrapper">
+      <div id="start-screen">
+        <h1>Start!</h1>
+        <p>Are you ready to quiz? Click start to get quizzing!</p>
+        <button id="start-quiz-btn">Start!</button>
+      </div>
+      <div id="questions-screen">
+        <h2>Question 1</h2>
+        <div class="questions">
+          <h3 id="question">Question</h3>
+
+          <ul>
+            <li>
+              <input type="radio" id="a" name="answer" class="answer" />
+              <label id="a_text" for="a">Answer</label>
+            </li>
+
+            <li>
+              <input type="radio" id="b" name="answer" class="answer" />
+              <label id="b_text" for="b">Answer</label>
+            </li>
+
+            <li>
+              <input type="radio" id="c" name="answer" class="answer" />
+              <label id="c_text" for="c">Answer</label>
+            </li>
+
+            <li>
+              <input type="radio" id="d" name="answer" class="answer" />
+              <label id="d_text" for="d">Answer</label>
+            </li>
+          </ul>
+        </div>
+        <button id="start-quiz-btn">Start!</button>
+      </div>
+    </div>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

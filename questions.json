@@ -1,0 +1,42 @@
+[
+  {
+    "question": "Cheddar cheese got its name from a village in what country?",
+    "A": "England",
+    "B": "France",
+    "C": "Switzerland",
+    "D": "Denmark",
+    "answer": "A"
+  },
+  {
+    "question": "Cheese is a necessary ingredient in which of these dishes?",
+    "A": "sushi",
+    "B": "french fries",
+    "C": "veal parmigiano",
+    "D": "chicken pot pie",
+    "answer": "C"
+  },
+  {
+    "question": "During what war did Francis Scott Key write the words to 'The Star-Spangled Banner'?",
+    "A": "American Revolution",
+    "B": "War of 1812",
+    "C": "Civil War",
+    "D": "World War I",
+    "answer": "B"
+  },
+  {
+    "question": "During which war did US troops fight the Battle of New Orleans?",
+    "A": "American Revolution",
+    "B": "Civil War",
+    "C": "Mexican War",
+    "D": "War of 1812",
+    "answer": "D"
+  },
+  {
+    "question": "Each year in pro baseball, the player voted as the best fielder at his position wins what?",
+    "A": "a brand new car",
+    "B": "the Gold Glove",
+    "C": "the Silver Bat",
+    "D": "the Brass Baseball",
+    "answer": "B"
+  }
+]
