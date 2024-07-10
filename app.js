@@ -17,8 +17,15 @@ const HTMLquestion = document.getElementById("question");
 function startQuiz() {
   //clear quiz data f() here//
 
-  fetchQuestions().then((JSONquestion) => {
-    HTMLquestion.innerText = JSONquestion[0].question;
+  fetchQuestions().then((arr) => {
+    const randomQuestion = arr[Math.floor(Math.random() * arr.length)];
+    HTMLquestion.innerText = randomQuestion.question;
+    console.log(randomQuestion.question);
+
+    a_answer.innerText = randomQuestion.A;
+    b_answer.innerText = randomQuestion.B;
+    c_answer.innerText = randomQuestion.C;
+    d_answer.innerText = randomQuestion.D;
   });
 
   startQuizBtn.addEventListener("click", () => {
